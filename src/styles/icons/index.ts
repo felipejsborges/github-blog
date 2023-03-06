@@ -5,5 +5,5 @@ export {
   FaCalendarDay as CalendarDay,
   FaChevronLeft as ChevronLeft,
   FaComment as Comment,
-  FaArrowUp as ArrowUp,
+  FaLink as Link,
 } from 'react-icons/fa'

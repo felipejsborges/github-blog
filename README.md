@@ -23,6 +23,9 @@
 	- [X] Add scripts
 	    - "lint": "eslint --ext .ts,.tsx src",
     	- "lint:fix": "eslint --ext .ts,.tsx src --fix"
+
+# UI
+
 - [X] Setup styling
 	- [X] Add styled-components @types/styled-components
 	- [X] Type themes (styled.d.ts)
@@ -30,10 +33,11 @@
 	- [X] Create themes (as const)
 	- [X] Create global style
 - [X] Install fonts from google, and adjust global style font-family
-
-# UI
-
-- [ ] Copy all assets from Figma: icons, images, components, etc
+- [X] Copy all assets from Figma
+	- [X] colors
+	- [X] icons
+	- [-] images
+	- [X] components
 - [ ] Create pages UI
 
 # Features
