@@ -1,7 +1,6 @@
 import styled from 'styled-components'
 
 export const Container = styled.div`
-  width: 26rem;
   height: 17rem;
   background: ${(props) => props.theme.basePost};
   border-radius: 10px;

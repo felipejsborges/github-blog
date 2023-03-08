@@ -38,7 +38,7 @@
 	- [X] icons
 	- [-] images
 	- [X] components
-- [ ] Create pages UI
+- [X] Create pages UI
 
 # Features
 

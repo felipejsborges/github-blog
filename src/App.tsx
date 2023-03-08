@@ -1,18 +1,17 @@
+import { BrowserRouter } from 'react-router-dom'
 import { ThemeProvider } from 'styled-components'
-import { Card } from './components/Card'
-import { Input } from './components/Input'
-import { Link } from './components/Link'
+import Router from './routing'
 import { GlobalStyle } from './styles/global'
 import { defaultTheme } from './styles/themes/default'
 
 function App() {
   return (
-    <ThemeProvider theme={defaultTheme}>
-      <Link />
-      <Input />
-      <Card />
-      <GlobalStyle />
-    </ThemeProvider>
+    <BrowserRouter>
+      <ThemeProvider theme={defaultTheme}>
+        <Router />
+        <GlobalStyle />
+      </ThemeProvider>
+    </BrowserRouter>
   )
 }
 
